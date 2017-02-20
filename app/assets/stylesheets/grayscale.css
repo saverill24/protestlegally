@@ -62,6 +62,7 @@ a:focus {
 }
 .light {
     font-weight: 400;
+
 }
 .light2 {
     font-weight: 400;
@@ -227,6 +228,7 @@ a:focus {
     background-size: cover;
     -o-background-size: cover;
 }
+
 .intro2 {
     display: table;
     width: 100%;
