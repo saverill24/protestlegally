@@ -1,0 +1,2 @@
+class IowaController < ApplicationController
+end

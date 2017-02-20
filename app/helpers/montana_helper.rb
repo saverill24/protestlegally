@@ -1,0 +1,2 @@
+module MontanaHelper
+end

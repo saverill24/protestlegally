@@ -1,0 +1,2 @@
+class TennesseeController < ApplicationController
+end

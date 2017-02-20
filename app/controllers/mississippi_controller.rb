@@ -1,0 +1,2 @@
+class MississippiController < ApplicationController
+end

@@ -1,0 +1,2 @@
+class GeorgiaController < ApplicationController
+end

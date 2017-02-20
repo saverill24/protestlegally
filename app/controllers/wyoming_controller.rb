@@ -1,0 +1,2 @@
+class WyomingController < ApplicationController
+end

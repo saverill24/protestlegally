@@ -1,0 +1,2 @@
+class OklahomaController < ApplicationController
+end

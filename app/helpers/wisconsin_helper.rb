@@ -1,0 +1,2 @@
+module WisconsinHelper
+end

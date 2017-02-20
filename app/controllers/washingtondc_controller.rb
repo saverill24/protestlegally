@@ -1,0 +1,2 @@
+class WashingtondcController < ApplicationController
+end

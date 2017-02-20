@@ -1,0 +1,2 @@
+module NebraskaHelper
+end

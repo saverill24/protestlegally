@@ -1,0 +1,2 @@
+module ColoradoHelper
+end

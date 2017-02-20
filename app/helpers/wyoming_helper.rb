@@ -1,0 +1,2 @@
+module WyomingHelper
+end

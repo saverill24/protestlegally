@@ -1,0 +1,2 @@
+module MnnesotaHelper
+end

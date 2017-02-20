@@ -1,0 +1,2 @@
+class NebraskaController < ApplicationController
+end

@@ -1,0 +1,2 @@
+class MontanaController < ApplicationController
+end

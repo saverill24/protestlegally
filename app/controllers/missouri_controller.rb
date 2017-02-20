@@ -1,0 +1,2 @@
+class MissouriController < ApplicationController
+end

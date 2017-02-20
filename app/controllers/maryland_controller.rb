@@ -1,0 +1,2 @@
+class MarylandController < ApplicationController
+end

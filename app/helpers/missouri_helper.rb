@@ -1,0 +1,2 @@
+module MissouriHelper
+end

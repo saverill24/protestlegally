@@ -1,0 +1,2 @@
+class ArizonaController < ApplicationController
+end

@@ -1,0 +1,2 @@
+class AlaskaController < ApplicationController
+end

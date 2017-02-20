@@ -1,0 +1,2 @@
+class RhodeIslandController < ApplicationController
+end

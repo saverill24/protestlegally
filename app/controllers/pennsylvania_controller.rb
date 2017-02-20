@@ -1,0 +1,2 @@
+class PennsylvaniaController < ApplicationController
+end

@@ -1,0 +1,2 @@
+class FloridaController < ApplicationController
+end

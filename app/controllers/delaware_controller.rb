@@ -1,0 +1,2 @@
+class DelawareController < ApplicationController
+end

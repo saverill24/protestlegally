@@ -1,0 +1,2 @@
+class ConnecticutController < ApplicationController
+end

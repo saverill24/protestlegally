@@ -1,0 +1,2 @@
+class ColoradoController < ApplicationController
+end

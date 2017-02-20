@@ -1,0 +1,2 @@
+class NewJerseyController < ApplicationController
+end

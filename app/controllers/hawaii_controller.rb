@@ -1,0 +1,2 @@
+class HawaiiController < ApplicationController
+end

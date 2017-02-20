@@ -1,0 +1,2 @@
+module RhodeIslandHelper
+end

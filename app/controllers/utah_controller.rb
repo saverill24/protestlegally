@@ -1,0 +1,2 @@
+class UtahController < ApplicationController
+end

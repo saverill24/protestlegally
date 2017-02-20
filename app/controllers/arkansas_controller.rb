@@ -1,0 +1,2 @@
+class ArkansasController < ApplicationController
+end

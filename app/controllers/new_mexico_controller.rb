@@ -1,0 +1,2 @@
+class NewMexicoController < ApplicationController
+end

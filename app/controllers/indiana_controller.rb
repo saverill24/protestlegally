@@ -1,0 +1,2 @@
+class IndianaController < ApplicationController
+end

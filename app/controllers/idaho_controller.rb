@@ -1,0 +1,2 @@
+class IdahoController < ApplicationController
+end

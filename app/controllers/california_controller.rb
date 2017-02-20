@@ -1,0 +1,2 @@
+class CaliforniaController < ApplicationController
+end

@@ -1,0 +1,2 @@
+class WashingtonController < ApplicationController
+end

@@ -1,0 +1,2 @@
+module ArkansasHelper
+end

@@ -1,0 +1,2 @@
+class SouthDakotaController < ApplicationController
+end

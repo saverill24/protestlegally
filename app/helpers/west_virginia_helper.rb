@@ -1,0 +1,2 @@
+module WestVirginiaHelper
+end

@@ -1,0 +1,2 @@
+class NewHampshireController < ApplicationController
+end

@@ -1,0 +1,2 @@
+class OhioController < ApplicationController
+end

@@ -1,0 +1,2 @@
+class NorthCarolinaController < ApplicationController
+end

@@ -1,0 +1,2 @@
+class TexasController < ApplicationController
+end

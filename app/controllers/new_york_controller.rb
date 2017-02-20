@@ -1,0 +1,2 @@
+class NewYorkController < ApplicationController
+end

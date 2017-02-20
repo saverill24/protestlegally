@@ -1,0 +1,2 @@
+module ArizonaHelper
+end

@@ -1,0 +1,2 @@
+class NevadaController < ApplicationController
+end

@@ -1,0 +1,2 @@
+class VermontController < ApplicationController
+end
