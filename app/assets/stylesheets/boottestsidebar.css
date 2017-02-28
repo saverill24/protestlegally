@@ -1287,6 +1287,14 @@ h6,
 .h6 {
   font-size: 12px;
 }
+h7,
+.h7 {
+  font-size: 80px;
+    font-family:  Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+
+}
 p {
   margin: 0 0 10px;
 }
@@ -1590,18 +1598,27 @@ pre code {
 }
 @media (min-width: 768px) {
   .container {
-    width: 750px;
+    width: 450px;
   }
 }
 @media (min-width: 992px) {
   .container {
-    width: 970px;
+    width: 650px;
   }
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 850px;
   }
+
+@media (min-width: 1400px) {
+  .container {
+    width: 970px;
+  }  
+  @media (min-width: 1600px) {
+  .container {
+    width: 1170px;
+  } 
 }
 .container-fluid {
   padding-right: 15px;
@@ -6768,3 +6785,121 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+
+
+
+
+
+
+
+.sidebarInfo {
+   float:left;
+   background-color:#800000;
+   border:1px solid #6fa7c8;
+   width:203px;
+   font-family:verdana, sans-serif;
+   margin:5% 0% 5% 40%;
+}
+.sidebarInfo .mainHead {
+   background-color:#6fa7c8;
+   color:#fff;
+   height:27px;
+   margin:0px;
+   padding:6px 0 0 15px;
+   font-family:serif;
+   font-weight:bold;
+}
+.sidebarInfo .subHead {
+   border-bottom:1px solid #999b9e;
+   color:#fff;
+   display:block;
+   margin:5px 15px;
+   width:170px;
+   padding:0 0 3px 0;
+   font-weight:bold;
+}
+.sidebarInfo h5 {
+   font-weight:bold;
+   margin:5px 15px;
+   padding:0px;
+}
+.sidebarInfo h6 {
+   color:#006595;
+   margin:5px 15px;
+   padding:0px;
+}
+.sidebarInfo ul {
+   font-size:12px;
+   list-style-type: square;
+   color:#ffc220;
+   margin-left:30px;
+}
+.sidebarInfo li {
+   margin-bottom:5px;
+}
+.sidebarInfo li em {
+   font-style:normal;
+   color:#006595;
+}
+.sidebarInfo li strong {
+   font-weight:bold;
+   color:#006595;
+}
+.sidebarInfo li p {
+   margin:3px 15px 3px 0px;
+   color:#000;
+}
+.sidebarInfo p {
+   margin:10px 15px;
+}
+.sidebarInfo .label {
+   float:left;
+   width:45px;
+   font-weight:bold;
+}
+.sidebarInfo .vcard {clear:both;}
+.sidebarInfo .vcard p {
+   margin-bottom:10px;
+   clear:both;
+}
+.sidebarInfo .street-address {display:block;}
+.sidebarInfo .adr .type {
+   font-weight:bold;
+   margin:5px 0px;
+   padding:0px;
+   font-size:12px;
+}
+.sidebarInfo img {
+   float:left;
+   height:100px;
+   width:75px;
+   border:1px solid #006595;
+   margin:0 10px 0 15px;
+}
+.sidebarInfo table {
+   width:170px;
+   margin:10px 15px;
+   font-size:12px;
+   border-bottom:1px solid #999b9e;
+   color:#fff;
+   border-collapse:collapse;
+}
+.sidebarInfo table tr { 
+   border-top:1px solid #999b9e;
+}
+.sidebarInfo table tr td {
+   border:0px;
+   _border-top:1px solid #999b9e;
+   padding:5px 0px;
+}
+.sidebarInfo table tr td2 {
+   border:0px;
+   _border-top:1px solid #999b9e;
+   position: center;
+   padding:5px 0px;
+}
+.sidebarInfo table tr .data {
+   font-weight:bold;
+   text-align:right;
+}
