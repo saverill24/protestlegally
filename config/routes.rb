@@ -21,7 +21,7 @@ Rails.application.routes.draw do
       
 
 
-get 'Alabama/Alabama' 
+get 'alabama/Alabama' 
 get 'alaska/Alaska'
 get 'arizona/Arizona'
 get 'arkansas/Arkansas'
