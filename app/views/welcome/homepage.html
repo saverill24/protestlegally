@@ -33,6 +33,13 @@
 
     <title>Know Your First</title>
 
+
+
+
+
+
+
+
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
@@ -42,7 +49,7 @@
 
     <!-- Custom CSS -->
     <link href="css/sb-admin.css" rel="stylesheet">
-
+    <link href="css/modal.css" rel="stylesheet">
     
 
     <!-- Custom Fonts -->
@@ -79,7 +86,7 @@
                   </div> 
                 </a>
             </div>
-
+      
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                <!--
@@ -147,8 +154,9 @@
                         <p>
                         <a href="#about" class="btn btn-nocircle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
-                        </a></p>
                         
+                        </a></p>
+
                     </div>
                 </div>
             </div>
@@ -164,6 +172,9 @@
                 <a href="#portfolio" class="btn btn-nocirclewhite page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
+
+
+
             </div>
         </div>
     </section>
@@ -179,7 +190,7 @@
                 
 
                 <div class="col-lg-2 col-sm-6">
-                    <a href="alabama/Alabama" class="portfolio-box">
+                    <a id="myBtn"  class="portfolio-box">
                         <img src="/images/StateFlags/alabamaflag.png" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -192,6 +203,16 @@
                                 </div>
                             </div>
                         </div>
+
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Birmingham</p>
+    <p>Must file permit 3 business days prior to event</p>
+    <p>Fee: $25</p>
+  </div> </div>
+
                     </a>
                 </div>
                 <div class="col-lg-2 col-sm-6">
@@ -1068,7 +1089,7 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
-
+    <script src="js/modal.js"></script>
 </body>
 
 </html>
