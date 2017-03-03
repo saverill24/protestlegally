@@ -5978,7 +5978,16 @@ button.close {
 }
 .modal-body {
   position: relative;
+  text-align: left;
   padding: 15px;
+  color: #000;
+}
+
+.modal-header-color {
+  position: relative;
+  
+  padding: 15px;
+  color: #000;
 }
 .modal-footer {
   padding: 15px;
