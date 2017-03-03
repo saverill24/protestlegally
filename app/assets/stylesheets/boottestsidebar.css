@@ -5962,7 +5962,8 @@ button.close {
 }
 .modal-backdrop.in {
   filter: alpha(opacity=50);
-  opacity: .5;
+  opacity: 0;
+  z-index: -10;
 }
 .modal-header {
   padding: 15px;
