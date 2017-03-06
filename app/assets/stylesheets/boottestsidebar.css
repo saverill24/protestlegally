@@ -5986,7 +5986,12 @@ button.close {
   padding: 15px;
   color: #000;
 }
-
+.modal-donate {
+  position: relative;
+  text-align: center;
+  padding: 15px;
+  color: #000;
+}
 .modal-header-color {
   position: relative;
   

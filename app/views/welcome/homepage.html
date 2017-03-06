@@ -121,8 +121,11 @@
                     <li>
                         <a class="page-scroll" href="#contact"><i class="fa fa-fw fa-edit"></i> Contact</a>
                     </li>
-                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- KnowYourFirstLeftBar
+                     <li>
+                        <a class="page-scroll" href="#myModalDonate" data-toggle="modal"><i class="fa fa-fw fa-usd"></i> Donate</a>
+                    </li>
+                      <!--   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+KnowYourFirstLeftBar
 <ins class="adsbygoogle"
      style="display:inline-block;width:300px;height:600px"
      data-ad-client="ca-pub-1665648554993631"
@@ -180,6 +183,34 @@
   </div>
 </div>-->
 <!-- Modal -->
+
+<div class="modal" id="myModalDonate" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="z-index: 1500;">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content" >
+      <div class="modal-header modal-header-color">
+        <button type="button" class="close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Please Donate</h4>
+      </div>
+      <div class="modal-donate">
+        <p>Please consider donating any amount you are able to, to our site. Hosting fees aren't cheap and this site is funded entirely out of pocket. Donations are what keep it alive so any help is greatly appreciated as it helps us continue to help others around this country. </p>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+      </div>
+      <div class="modal-footer">    
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 <div class="modal" id="myModalAlabama" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="z-index: 1500;">
   <div class="modal-dialog" role="document">
     <div class="modal-content" >
